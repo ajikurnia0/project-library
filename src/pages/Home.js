@@ -6,6 +6,7 @@ export default function Home() {
     <section id="home">
       <MainSearch />
       <About />
+
     </section>
   );
 }

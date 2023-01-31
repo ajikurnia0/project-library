@@ -12,6 +12,7 @@ import axios from "axios"
 
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from 'react';
+import BookList from "./pages/BookList";
 
 
 
@@ -60,9 +61,10 @@ function App() {
       <Navbar myEmail={{ email }} />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/list' element={<BookList />} />
         <Route path='/login' element={email ? navigate('/') : <Login myFunc={{ onLogin }} />} />
         <Route path='/register' element={email ? navigate('/') : <Register />} />
-        <Route path="/detail/:id" element={<DetailProduct />} />
+        {/* <Route path="/detail/:id" element={<DetailProduct />} /> */}
         {/* <Route path='/login' element={<Login myFunc={{ onLogin }} />} />
         <Route path='/register' element={<Register />} /> */}
       </Routes>

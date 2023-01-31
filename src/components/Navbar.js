@@ -32,12 +32,9 @@ const Navbar = (props) => {
                                     {props.myEmail.email}
                                 </span>
                                 <span>
-                                    <button className='bg-white text-black px-3 py-1 rounded-full border border-black drop-shadow-sm mr-3 hover:bg-cyan-300' > <a href='http://localhost:3000/login'>Log Out</a> </button>
+                                    <button className='bg-white text-black px-3 py-1 rounded-full border border-black drop-shadow-sm mr-3 hover:bg-red-500' > <a href='http://localhost:3000/'>Log Out</a> </button>
                                 </span>
                             </>
-
-
-
                             :
                             <>
                                 <span>

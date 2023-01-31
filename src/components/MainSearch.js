@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About() {
+export default function MainSearch() {
     return (
         <section id="mainSearch">
             <div>
@@ -37,8 +37,8 @@ export default function About() {
                                 <div className="flex-wrap">
                                     <input
                                         type="text"
-                                        id="name"
-                                        name="name"
+                                        id="search"
+                                        name="search"
                                         className="w-full bg-white rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     />
                                 </div>
